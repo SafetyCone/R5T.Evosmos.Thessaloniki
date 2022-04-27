@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 
 using R5T.Lombardy;
-using R5T.Thessaloniki;
+using R5T.Thessaloniki;using R5T.T0064;
 
 
 namespace R5T.Evosmos.Thessaloniki
-{
-    public class TemporaryDirectoryFilePathProvider : ITemporaryDirectoryFilePathProvider
+{[ServiceImplementationMarker]
+    public class TemporaryDirectoryFilePathProvider : ITemporaryDirectoryFilePathProvider,IServiceImplementation
     {
         private ITemporaryDirectoryPathProvider TemporaryDirectoryPathProvider { get; }
         private IStringlyTypedPathOperator StringlyTypedPathOperator { get; }

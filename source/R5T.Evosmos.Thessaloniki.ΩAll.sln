@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Evosmos.Thessaloniki.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Evosmos.Thessaloniki.Testing", "R5T.Evosmos.Thessaloniki.Testing\R5T.Evosmos.Thessaloniki.Testing.csproj", "{437B40FE-5EE6-470E-B85F-8107BB35041E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C77F194E-2847-479D-837E-9A578BA0F085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{437B40FE-5EE6-470E-B85F-8107BB35041E}.Release|x64.Build.0 = Release|Any CPU
 		{437B40FE-5EE6-470E-B85F-8107BB35041E}.Release|x86.ActiveCfg = Release|Any CPU
 		{437B40FE-5EE6-470E-B85F-8107BB35041E}.Release|x86.Build.0 = Release|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Debug|x64.Build.0 = Debug|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Release|x64.ActiveCfg = Release|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Release|x64.Build.0 = Release|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B66D291-9BF9-42D8-8D6F-8CF08AC5C980} = {C77F194E-2847-479D-837E-9A578BA0F085}
 	EndGlobalSection
 EndGlobal
